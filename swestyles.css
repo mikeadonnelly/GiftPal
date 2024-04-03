@@ -1,137 +1,174 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* Navigation Bar */
-
-#home {
-  background-color:  #f6f5f7;
-  padding-bottom: 1cm;
-  margin-left:-1cm;
-  margin-right:-1cm;
-  margin-top:-1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
-  height: 5mm;
- }
-
-.topmenu {
-  color: rgb(16, 15, 15);
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
-  text-decoration:none;
-}
-
-.topmenu:hover {
-  color: rgb(114, 113, 113);
-}
-
-.topdiv {
-  float: right;
-  padding-right: 1cm;
-}
-
-.profile_name {
-  float: left;
-  padding-left: 2cm;
-  font-size: 32px;
-}
-
-
-
-.profile_name img {
-  width:50px;
-  margin-top: -.25cm;
-  margin-right: 10px;
-  float:left;
-}
-
-a {
-    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
-  label {
-    font-family: "Raleway", sans-serif;
-    font-size: 11pt;
+  /* Navigation Bar */
+  
+  #home {
+    background-color:  #f6f5f7;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+  
+  .topmenu {
+    color: rgb(16, 15, 15);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration:none;
   }
-  #forgot-pass {
-    color: black;
-    font-family: "Raleway", sans-serif;
-    font-size: 10pt;
-    margin-top: 3px;
-    text-align: right;
+  
+  .topmenu:hover {
+    color: rgb(114, 113, 113);
   }
-  #card {
-    background: #fbfbfb;
-    border-radius: 8px;
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-    height: 410px;
-    margin: 6rem auto 8.1rem auto;
-    width: 329px;
+  
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
   }
-  #card-content {
-    padding: 12px 44px;
+  
+  .profile_name {
+    float: left;
+    padding-left: 2cm;
+    font-size: 32px;
   }
-  #card-title {
-    font-family: "Raleway Thin", sans-serif;
-    letter-spacing: 4px;
-    padding-bottom: 23px;
-    padding-top: 13px;
-    text-align: center;
+  
+  
+  
+  .profile_name img {
+    width:50px;
+    margin-top: -.25cm;
+    margin-right: 10px;
+    float:left;
   }
-  #signup {
-    color: #111111;
-    font-family: "Raleway", sans-serif;
-    font-size: 10pt;
-    margin-top: 16px;
-    text-align: center;
+  
+  a {
+      text-decoration: none;
+    }
+    
+    label {
+      font-family: "Raleway", sans-serif;
+      font-size: 11pt;
+    }
+    #forgot-pass {
+      color: black;
+      font-family: "Raleway", sans-serif;
+      font-size: 10pt;
+      margin-top: 3px;
+      text-align: right;
+    }
+    #card {
+      background: #fbfbfb;
+      border-radius: 8px;
+      box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+      height: 410px;
+      margin: 6rem auto 8.1rem auto;
+      width: 329px;
+    }
+    #card-content {
+      padding: 12px 44px;
+    }
+    #card-title {
+      font-family: "Raleway Thin", sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+    }
+    #signup {
+      color: #111111;
+      font-family: "Raleway", sans-serif;
+      font-size: 10pt;
+      margin-top: 16px;
+      text-align: center;
+    }
+    #submit-btn {
+      background: -webkit-linear-gradient(right, #0c0c0c, #101110);
+      border: none;
+      border-radius: 21px;
+      box-shadow: 0px 1px 8px #0f0f0f;
+      cursor: pointer;
+      color: white;
+      font-family: "Raleway SemiBold", sans-serif;
+      height: 42.3px;
+      margin: 0 auto;
+      margin-top: 50px;
+      transition: 0.25s;
+      width: 153px;
+    }
+    #submit-btn:hover {
+      box-shadow: 0px 1px 18px #111111;
+    }
+    .form {
+      align-items: left;
+      display: flex;
+      flex-direction: column;
+    }
+    .form-border {
+      background: -webkit-linear-gradient(right, #101010, #0e0f0e);
+      height: 1px;
+      width: 100%;
+    }
+    .form-content {
+      background: #fbfbfb;
+      border: none;
+      outline: none;
+      padding-top: 14px;
+    }
+    .underline-title {
+      background: -webkit-linear-gradient(right, #111111, #0d0d0d);
+      height: 2px;
+      margin: -1.1rem auto 0 auto;
+      width: 89px;
+    }
+    .footer { 
+      position: absolute;
+      color: #171616;
+    font-size: 20px;
+    line-height: 19px; 
+      bottom: 0; 
+      left: 1cm; 
+      z-index: 10;
+      
   }
-  #submit-btn {
-    background: -webkit-linear-gradient(right, #0c0c0c, #101110);
-    border: none;
-    border-radius: 21px;
-    box-shadow: 0px 1px 8px #0f0f0f;
-    cursor: pointer;
-    color: white;
-    font-family: "Raleway SemiBold", sans-serif;
-    height: 42.3px;
-    margin: 0 auto;
-    margin-top: 50px;
-    transition: 0.25s;
-    width: 153px;
-  }
-  #submit-btn:hover {
-    box-shadow: 0px 1px 18px #111111;
-  }
-  .form {
-    align-items: left;
+  #square{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(0, 18, 41);
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .form-border {
-    background: -webkit-linear-gradient(right, #101010, #0e0f0e);
-    height: 1px;
-    width: 100%;
+  .container {
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .form-content {
-    background: #fbfbfb;
-    border: none;
-    outline: none;
-    padding-top: 14px;
-  }
-  .underline-title {
-    background: -webkit-linear-gradient(right, #111111, #0d0d0d);
-    height: 2px;
-    margin: -1.1rem auto 0 auto;
-    width: 89px;
-  }
-  .footer { 
+
+  #button {
+    border-radius: 35px;
     position: absolute;
-    color: #171616;
-  font-size: 20px;
-  line-height: 19px; 
-    bottom: 0; 
-    left: 1cm; 
-    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 150px;
+    font-size: large;
+  }
+  #profileP{
+    width: 80%;
+    border-radius: 30px;
+    
+  }
+#RegistryName{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
 }
